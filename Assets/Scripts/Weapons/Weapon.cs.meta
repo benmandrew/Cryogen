@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e8fc30fafea68dc469ea6fa3db63b1d4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - bulletExplosion: {instanceID: 0}
+  - controller: {instanceID: 0}
+  - shotClip: {instanceID: 0}
+  - reloadClip: {instanceID: 0}
+  - source: {instanceID: 0}
+  - bloodSplatter: {fileID: 5700357783469606603, guid: b07dff8f61fb42144a14327aa07b2a57,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

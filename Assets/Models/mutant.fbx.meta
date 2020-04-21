@@ -1,0 +1,215 @@
+fileFormatVersion: 2
+guid: f88104bb13ae6bc4ea5489a563d018d9
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      74: 4723146814002874508
+    second: Armature|Attack
+  - first:
+      74: 8349542763059015795
+    second: Armature|Walk
+  - first:
+      74: -7681441007365279422
+    second: Armature|Default
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glow
+    second: {fileID: 2100000, guid: b9270eb1d9a212b45a4c21fd5f4ccb9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skin
+    second: {fileID: 2100000, guid: 361129e2a94581a49854b93bd1ce6751, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths:
+    - Plane
+    - Armature
+    - Armature/root
+    - Armature/root/spine0
+    - Armature/root/spine0/spine1
+    - Armature/root/spine0/spine1/spine2
+    - Armature/root/spine0/spine1/spine2/neck
+    - Armature/root/spine0/spine1/spine2/neck/head
+    - Armature/root/spine0/spine1/spine2/neck/head/Sphere
+    - Armature/root/spine0/spine1/spine2/neck/head/head_end
+    - Armature/root/spine0/spine1/spine2/shoulder.L
+    - Armature/root/spine0/spine1/spine2/shoulder.L/upperarm.L
+    - Armature/root/spine0/spine1/spine2/shoulder.L/upperarm.L/lowerarm.L
+    - Armature/root/spine0/spine1/spine2/shoulder.L/upperarm.L/lowerarm.L/lowerarm.L_end
+    - Armature/root/spine0/spine1/spine2/shoulder.L/handik.L
+    - Armature/root/spine0/spine1/spine2/shoulder.L/handik.L/hand.L
+    - Armature/root/spine0/spine1/spine2/shoulder.L/handik.L/hand.L/hand.L_end
+    - Armature/root/spine0/spine1/spine2/shoulder.R
+    - Armature/root/spine0/spine1/spine2/shoulder.R/upperarm.R
+    - Armature/root/spine0/spine1/spine2/shoulder.R/upperarm.R/lowerarm.R
+    - Armature/root/spine0/spine1/spine2/shoulder.R/upperarm.R/lowerarm.R/lowerarm.R_end
+    - Armature/root/spine0/spine1/spine2/shoulder.R/handik.R
+    - Armature/root/spine0/spine1/spine2/shoulder.R/handik.R/hand.R
+    - Armature/root/spine0/spine1/spine2/shoulder.R/handik.R/hand.R/hand.R_end
+    - Armature/root/hip.L
+    - Armature/root/hip.L/upperleg.L
+    - Armature/root/hip.L/upperleg.L/lowerleg.L
+    - Armature/root/hip.L/upperleg.L/lowerleg.L/lowerleg.L_end
+    - Armature/root/kneepole.L
+    - Armature/root/kneepole.L/kneepole.L_end
+    - Armature/root/footik.L
+    - Armature/root/footik.L/foot.L
+    - Armature/root/footik.L/foot.L/foot.L_end
+    - Armature/root/hip.R
+    - Armature/root/hip.R/upperleg.R
+    - Armature/root/hip.R/upperleg.R/lowerleg.R
+    - Armature/root/hip.R/upperleg.R/lowerleg.R/lowerleg.R_end
+    - Armature/root/kneepole.R
+    - Armature/root/kneepole.R/kneepole.R_end
+    - Armature/root/footik.R
+    - Armature/root/footik.R/foot.R
+    - Armature/root/footik.R/foot.R/foot.R_end
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Attack
+      takeName: Armature|Attack
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Walk
+      takeName: Armature|Walk
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 20
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: root
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
