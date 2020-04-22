@@ -259,8 +259,6 @@ public class PlayerController : MonoBehaviour
         {
             return;
         }
-
-        GameManager.instance.playerDead = true;
         
         // LockMovement();
 
@@ -274,6 +272,8 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator DeathAnimation()
     {
+        PlayerUIController.instance.crosshair.SetActive(false);
+        
         Quaternion playerStartRotation = transform.rotation;
         Quaternion playerEndRotation = playerStartRotation * Quaternion.Euler(-90, 0, 0);
 
@@ -317,13 +317,15 @@ public class PlayerController : MonoBehaviour
             vignetteEffect.color.value = Color.Lerp(startVignetteColour, endVignetteColour, elapsed / fadeTime);
             colourEffect.saturation.value = Mathf.Lerp(startSaturation, endSaturation, elapsed / fadeTime);
 
-            elapsed += Time.deltaTime;
+            elapsed += Time.unscaledTime;
             yield return null;
         }
         
         PlayerUIController.instance.deathScreen.SetActive(true);
         GameManager.UnlockCursor();
-        GameManager.instance.gamePaused = true;
+        // GameManager.instance.gamePaused = true;
+
+        GameManager.instance.playerDead = true;
     }
 
     IEnumerator HeartDeathAnim()

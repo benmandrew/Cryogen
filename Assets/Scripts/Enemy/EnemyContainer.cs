@@ -16,11 +16,11 @@ public class EnemyContainer : MonoBehaviour {
     public float spawnInterval = 0.3f;
     private float lastSpawnTime;
     private bool spawnWave;
-    private int nActiveEnemies;
+    // private int nActiveEnemies;
 
     void Start() {
         waveManager = GameObject.FindWithTag("WaveManager").GetComponent<WaveManager>();
-        nActiveEnemies = 0;
+        // nActiveEnemies = 0;
         // spawnInterval = 0.3f;
         lastSpawnTime = -spawnInterval;
         spawnWave = true;
@@ -34,7 +34,7 @@ public class EnemyContainer : MonoBehaviour {
         enemy.transform.SetParent(transform, false);
         enemy.GetComponent<Enemy>().init(this, type);
         enemies.Add(enemy);
-        nActiveEnemies++;
+        // nActiveEnemies++;
     }
 
     GameObject createEnemy(EnemyType type) {
@@ -52,11 +52,11 @@ public class EnemyContainer : MonoBehaviour {
 
     public void removeEnemy(GameObject enemy) {
         enemies.Remove(enemy);
-        nActiveEnemies--;
+        // nActiveEnemies--;
     }
 
     public int getNEnemies() {
-        return nActiveEnemies + spawnQueue.Count;
+        return enemies.Count + spawnQueue.Count;
     }
 
     void spawnEnemiesInQueue() {

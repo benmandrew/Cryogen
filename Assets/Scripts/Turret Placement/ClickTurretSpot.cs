@@ -26,7 +26,7 @@ public class ClickTurretSpot : MonoBehaviour
         {
             Ray ray = new Ray(_playerController.playerCamera.transform.position, _playerController.playerCamera.transform.forward);
             
-            RaycastHit[] hits = Physics.RaycastAll(ray, clickDistance, LayerMask.GetMask("Turrets"));
+            RaycastHit[] hits = Physics.RaycastAll(ray, clickDistance, LayerMask.GetMask("Default", "Turrets"));
 
             float closest = Mathf.Infinity;
             float foundDist = -1;

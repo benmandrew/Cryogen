@@ -80,7 +80,7 @@ public class GameManager : MonoBehaviour
         {
             return false;
         }
-        return instance.gamePaused || instance.inTurretMenu || instance.playerLocked;
+        return instance.gamePaused || instance.inTurretMenu || instance.playerLocked || instance.playerDead;
     }
 
     public static void LockCursor()
